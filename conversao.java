@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class conversao {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in); 
+        Scanner le = new Scanner(System.in); 
         System.out.print("anos: ");
-        int anos = in.nextInt();            
+        int anos = le.nextInt();            
         System.out.print("meses: ");
-        int meses = in.nextInt();
+        int meses = le.nextInt();
         System.out.print("dias: ");
-        int dias = in.nextInt();
+        int dias = le.nextInt();
         System.out.println(365*anos+30*meses+dias);
-        in.close();
+        le.close();
     }
 }
